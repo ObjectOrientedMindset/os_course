@@ -1,0 +1,3 @@
+Bir Sayı Giriniz: Hatalı input 2 den büyük sayı giriniz!Bir Sayı Giriniz: Hatalı input 2 den büyük sayı giriniz!Bir Sayı Giriniz: Küçük Asal: 2 , Büyük Asal: 5 
+Bir Sayı Giriniz: Küçük Asal: 3 , Büyük Asal: 5 
+Bir Sayı Giriniz: Küçük Asal: 3 , Büyük Asal: 7 
