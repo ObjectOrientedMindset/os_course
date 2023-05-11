@@ -1,0 +1,28 @@
+pェUChild PID 85902 , Parent PID 85901
+Sat Apr  8 22:14:30 2023
+pェUChild PID 85901 , Parent PID 70055
+Child PID 85907 , Parent PID 85901
+Child PID 85913 , Parent PID 85902
+Child PID 85921 , Parent PID 85913
+pェUChild PID 87214 , Parent PID 87213
+Sat Apr  8 22:20:33 2023
+pェUChild PID 87213 , Parent PID 70055
+Child PID 87223 , Parent PID 87213
+Child PID 87225 , Parent PID 87214
+Child PID 87233 , Parent PID 87225
+pェUChild PID 87260 , Parent PID 87259
+Sat Apr  8 22:20:41 2023
+pェUChild PID 87259 , Parent PID 70055
+Child PID 87263 , Parent PID 87259
+Child PID 87271 , Parent PID 87260
+Child PID 87279 , Parent PID 87271
+pェUChild PID 89912 , Parent PID 89911
+Sat Apr  8 22:32:29 2023
+pェUChild PID 89911 , Parent PID 89779
+Child PID 89920 , Parent PID 89911
+pェUChild PID 89975 , Parent PID 89974
+Sat Apr  8 22:32:43 2023
+pェUChild PID 89974 , Parent PID 89779
+Child PID 89980 , Parent PID 89974
+Child PID 89986 , Parent PID 89975
+Child PID 89994 , Parent PID 89986
