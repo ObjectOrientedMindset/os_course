@@ -1,7 +1,6 @@
 #include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <sys/wait.h>
 #include <time.h>
 #include <sys/stat.h>
 #include <string.h>
@@ -92,7 +91,6 @@ void *child(const char *path, int reverse_array[], int fd[])
 void terminationHandler(pid_t pid)
 {
 	printf("Termination handler called.\n");
-	kill(pid, SIGKILL);
 }
 
 int main(int argc, char *argv[])
@@ -134,7 +132,7 @@ int main(int argc, char *argv[])
 			// Alt durumlar
 			// a : müh-mim ve bilg müh
 			if (reverse_array[11] == 1 && reverse_array[10] == 5 &&
-				reverse_array[9] == 2 && reverse_array[8] == 1)
+					reverse_array[9] == 2 && reverse_array[8] == 1)
 			{
 				file3 = fopen("161061_IsSisLabB2023BHR_UYG4_exp.txt", "a");
 				fprintf(file3, "a: Müh.-Mim. Fak. Bilg. Müh.\n");
@@ -142,15 +140,14 @@ int main(int argc, char *argv[])
 				printf("a: Müh.-Mim. Fak. Bilg. Müh.\n");
 			}
 			else if ((reverse_array[7] * 1000) + (reverse_array[6] * 100) +
-						 (reverse_array[5] * 10) + (reverse_array[4] * 1) >=
-					 2017)
+									 (reverse_array[5] * 10) + (reverse_array[4] * 1) >=
+							 2017)
 			{ // wait 4 sec and kill child process.
 				file3 = fopen("161061_IsSisLabB2023BHR_UYG4_exp.txt", "a");
 				fprintf(file3, "b: Giriş yılı >= 2017\n");
 				fclose(file3);
 				printf("b: Giriş yılı >= 2017\n");
 				sleep(4);
-				kill(pid, SIGKILL);
 			}
 			else if (reverse_array[11] == 3 && reverse_array[10] == 0)
 			{
