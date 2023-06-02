@@ -1,0 +1,8 @@
+1. Segmentasyon ihlalinden korumak için signal handler fonksiyonu oluşturdum.
+2. segfault_handler fonksiyonu SIGSEV yani segmentasyon ihlal sinyali aldığı zaman hata logu print eder ve exit ile programı öldürür.
+3. Linker tanımlı (etext, edata, end) sembolleri extern keyword ile erişim sağladım.
+4. Bu semboller programın hafızasındaki farklı segmentleri temsil etmektedir.
+5. read-only segmenti text segmentinden data segmentine kadar olan bölümü içermektedir.
+6. write/read semgenti data segmentinden heap'e kadar olan bölümü içerir.
+7. read-only ve write/read segmentlerinde birer değişken tanımladım.
+8. read/write içinden tanımlanan değişken hatasız çalışırken read-only değişkeni değer atarken segmentation violation hatasını verdi.
